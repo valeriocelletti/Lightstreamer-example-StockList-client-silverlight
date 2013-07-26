@@ -53,7 +53,7 @@ This deploy folder is ready to be deployed under Lightstreamer's internal Web Se
 
 The demos are now ready to be launched.
 
-## HOW TO DEPLOY THE EXAMPLE ON YOUR WEB SERVER ##
+## How to deploy the demo on your web server ##
 
 By the current configuration, the demo tries to access Lightstreamer Server by using the protocol, hostname and port from which the "index.html" page was requested; in other words, the demo assumes that the static resources are deployed inside Lightstreamer Server.<br>
 
