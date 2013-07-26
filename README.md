@@ -2,7 +2,7 @@
 
 This project contains a simple Silverlight version of the [Lightstreamer Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) fed through a Lightstreamer server.
 
-## Monitor Console Demo ##
+## Silverlight Stock-List Demo ##
 
 <table>
   <tr>
