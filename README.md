@@ -64,7 +64,7 @@ Then, in order to allow the page to get resources from a different server, the W
 
 # See Also #
 
-## Lightstreamer Adapters needed by these demo clients ##
+## Lightstreamer Adapters needed by this demo client ##
 
 * [Lightstreamer StockList Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer Reusable Metadata Adapter in Java](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
@@ -81,3 +81,4 @@ Then, in order to allow the page to get resources from a different server, the W
 # Lightstreamer Compatibility Notes #
 
 - Compatible with Lightstreamer Silverlight Client Library version 1.4 or newer.
+- For Lightstreamer Allegro+, Presto, Vivace.
