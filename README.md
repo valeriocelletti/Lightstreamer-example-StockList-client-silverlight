@@ -7,7 +7,7 @@ This project contains a simple Silverlight version of the [Lightstreamer Stock-L
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/Silverlight_StockListDemo" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_silverlight.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/Silverlight_StockListDemo" target="_blank"><img src="screen_silverlight.png"></a>&nbsp;
       
     </td>
     <td>
@@ -81,4 +81,4 @@ Then, in order to allow the page to get resources from a different server, the W
 # Lightstreamer Compatibility Notes #
 
 - Compatible with Lightstreamer Silverlight Client Library version 1.4 or newer.
-- For Lightstreamer Allegro+, Presto, Vivace.
+- For Lightstreamer Allegro (+ Silverlight Client API support), Presto, Vivace.
