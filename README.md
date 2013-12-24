@@ -1,5 +1,7 @@
 # Lightstreamer - Basic Stock-List Demo - Silverlight Client #
 
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-silverlight -->
+
 This project contains a simple Silverlight version of the [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) fed through a Lightstreamer server.
 
 <table>
@@ -20,6 +22,8 @@ This app uses the <b>Silverlight Client API for Lightstreamer</b> to handle the 
 After launching the demo, the Silverlight application will automatically connect to Lightstreamer Server and will subscribe to 30 stock quotes.<br>
 
 A Silverlight Grid is used to display the real-time data. You can sort on any columns and drag the columns around (in this demo the resorting is not done automatically on each update).
+
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-silverlight -->
 
 # Build #
 
@@ -64,8 +68,11 @@ Then, in order to allow the page to get resources from a different server, the W
 
 ## Lightstreamer Adapters needed by this demo client ##
 
+<!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
