@@ -4,19 +4,8 @@
 
 This project contains a simple Silverlight version of the [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) fed through a Lightstreamer server.
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/Silverlight_StockListDemo" target="_blank"><img src="screen_silverlight.png"></a>&nbsp;
-      
-    </td>
-    <td>
-      &nbsp;An online demonstration is hosted on our servers at:<br>
-      &nbsp;<a href="http://demos.lightstreamer.com/Silverlight_StockListDemo" target="_blank">http://demos.lightstreamer.com/Silverlight_StockListDemo/</a>
-    </td>
-  </tr>
-</table>
-
+[![screenshot](screen_silverlight_large.png)](http://demos.lightstreamer.com/Silverlight_StockListDemo)<br>
+An online demonstration is hosted on our servers at [http://demos.lightstreamer.com/Silverlight_StockListDemo](http://demos.lightstreamer.com/Silverlight_StockListDemo)
 
 This app uses the <b>Silverlight Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses a <b>Silverlight Grid</b> to display the real-time data pushed by Lightstreamer Server.<br>
 After launching the demo, the Silverlight application will automatically connect to Lightstreamer Server and will subscribe to 30 stock quotes.<br>
@@ -66,7 +55,7 @@ Then, in order to allow the page to get resources from a different server, the W
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
@@ -74,7 +63,7 @@ Then, in order to allow the page to get resources from a different server, the W
 
 <!-- END RELATED_ENTRIES -->
 
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
