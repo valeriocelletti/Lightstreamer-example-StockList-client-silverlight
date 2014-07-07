@@ -21,7 +21,7 @@ A Silverlight Grid is used to display the real-time data. You can sort on any co
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
-* Download the deploy.zip file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-winphone/releases) of this project and extract the deployment image of the demo, which includes the ".xap" file needed to contain all the resources that make up the demo (i.e. the demo DLL, the Lightstreamer client library DLL and, possibly, other SDK resources) and a container html page.
+* Download the deploy.zip file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-silverlight/releases) of this project and extract the deployment image of the demo, which includes the ".xap" file needed to contain all the resources that make up the demo (i.e. the demo DLL, the Lightstreamer client library DLL and, possibly, other SDK resources) and a container html page.
 * This deployment image is ready to be deployed under Lightstreamer's internal Web Server, copy the two files into some subfolder of the "pages" directory (ie "Silverlight_StockListDemo_Basic").<br>
 * Open the http://localhost:8080/Silverlight_StockListDemo_Basic/ in your favorite browser.
 
