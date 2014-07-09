@@ -32,7 +32,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 
 To build your own version of the demo, instead of using the one provided in the deploy.zip file from the Install section above, follow these steps.
 
-Otherwise, in order to proceed with the build process of this demo, this project includes the following sub-folders:
+In order to proceed with the build process of this demo, this project includes the following sub-folders:
 * /Source<br>
   Contains the sources to build the Silverlight application from Visual Studio.
 
