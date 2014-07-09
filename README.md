@@ -3,6 +3,7 @@
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-silverlight -->
 
 This project contains a simple Silverlight version of the [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) fed through a Lightstreamer server.
+
 ## Live Demo
 
 [![screenshot](screen_silverlight_large.png)](http://demos.lightstreamer.com/Silverlight_StockListDemo)<br>
@@ -19,6 +20,8 @@ A Silverlight Grid is used to display the real-time data. You can sort on any co
 
 ## Install
 
+If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
+
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
 * Download the deploy.zip file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-silverlight/releases) of this project and extract the deployment image of the demo, which includes the ".xap" file needed to contain all the resources that make up the demo (i.e. the demo DLL, the Lightstreamer client library DLL and, possibly, other SDK resources) and a container html page.
@@ -26,6 +29,8 @@ A Silverlight Grid is used to display the real-time data. You can sort on any co
 * Open the http://localhost:8080/Silverlight_StockListDemo_Basic/ in your favorite browser.
 
 ## Build
+
+To build your own version of the demo, instead of using the one provided in the deploy.zip file from the Install section above, follow these steps.
 
 Otherwise, in order to proceed with the build process of this demo, this project includes the following sub-folders:
 * /Source<br>
