@@ -14,7 +14,7 @@ This project contains a simple Silverlight version of the [Lightstreamer - Stock
 This app uses the <b>Silverlight Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses a <b>Silverlight Grid</b> to display the real-time data pushed by Lightstreamer Server.<br>
 After launching the demo, the Silverlight application will automatically connect to Lightstreamer Server and will subscribe to 30 stock quotes.<br>
 
-A Silverlight Grid is used to display the real-time data. You can sort on any columns and drag the columns around (in this demo the resorting is not done automatically on each update).
+A Silverlight Grid is used to display the real-time data. You can sort on any columns and drag the columns around (in this demo, the resorting is not done automatically on each update).
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-silverlight -->
 
@@ -24,8 +24,8 @@ If you want to install a version of this demo pointing to your local Lightstream
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
-* Download the `deploy.zip` file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-silverlight/releases) of this project and extract the deployment image of the demo, which includes the `.xap` file needed to contain all the resources that make up the demo (i.e. the demo DLL, the Lightstreamer client library DLL and, possibly, other SDK resources) and a container html page.
-* This deployment image is ready to be deployed under Lightstreamer's internal Web Server, copy the two files into some subfolder of the `pages` directory (ie `Silverlight_StockListDemo_Basic`).<br>
+* Download the `deploy.zip` file, which you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-silverlight/releases) of this project and extract the deployment image of the demo, which includes the `.xap` file needed to contain all the resources that make up the demo (i.e., the demo DLL, the Lightstreamer client library DLL and, possibly, other SDK resources) and a container html page.
+* This deployment image is ready to be deployed under Lightstreamer's internal Web Server, copy the two files into some subfolder of the `pages` directory (i.e., `Silverlight_StockListDemo_Basic`).<br>
 * Open the http://localhost:8080/Silverlight_StockListDemo_Basic/ in your favorite browser.
 
 ## Build
@@ -42,7 +42,7 @@ To build your own version of the demo, instead of using the one provided in the 
 
 * `lib`<br>
   Should contain Lightstreamer Silverlight Client library, to be used for the build process.<br>
-  Please, download the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and copy the `SilverlightClient.dll` and `SilverlightClient.pdb` files from the Lightstreamer Silverlight Client SDK (that is located under the `/DOCS-SDKs/sdk_client_silverlight/lib` folder) into this folder of the project.
+  Please download the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and copy the `SilverlightClient.dll` and `SilverlightClient.pdb` files from the Lightstreamer Silverlight Client SDK (located under the `/DOCS-SDKs/sdk_client_silverlight/lib` folder) into this folder of the project.
   
 <br>
 The Silverlight Client Library is compatible with Silverlight environment version 3 or newer.
@@ -54,12 +54,12 @@ This deploy folder is ready to be deployed under Lightstreamer's internal Web Se
 
 The demos are now ready to be launched.
 
-By the current configuration, the demo tries to access Lightstreamer Server by using the protocol, hostname and port from which the `index.html` page was requested; in other words, the demo assumes that the static resources are deployed inside Lightstreamer Server.<br>
+By the current configuration, the demo tries to access Lightstreamer Server by using the protocol, hostname, and port from which the `index.html` page was requested; in other words, the demo assumes that the static resources are deployed inside Lightstreamer Server.<br>
 
-In order to deploy the demo static resources on an external Web Server, some changes are needed on the deployment image before or after copying it into the Web Server folders.
+To deploy the demo static resources on an external Web Server, some changes are needed on the deployment image before or after copying it into the Web Server folders.
 The configuration of the url to be used to connect to Lightstreamer Server should be added. The configuration section can be easily found in `deploy/index.html`, as the if-block containing the *param name="initparams"* pattern and can be modified manually, without the need for a recompilation.<br>
 
-Then, in order to allow the page to get resources from a different server, the Web Server address has to be included in the `clientaccesspolicy` resource deployed under Lightstreamer Server. See the <silverlight_accesspolicy_enabled> element in the Server configuration file for details.
+Then, to allow the page to get resources from a different server, the Web Server address has to be included in the `clientaccesspolicy` resource deployed under Lightstreamer Server. See the <silverlight_accesspolicy_enabled> element in the Server configuration file for details.
 
 ## See Also
 
