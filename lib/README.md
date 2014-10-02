@@ -1,2 +1,2 @@
 This folder should contain Lightstreamer Silverlight Client library, to be used for the build process.<br>
-Please, download the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and copy the SilverlightClient.dll and SilverlightClient.pdb files from the Lightstreamer Silverlight Client SDK (that is located under the /DOCS-SDKs/sdk_client_silverlight/lib folder) into this folder of the project.
+Please download the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and copy the SilverlightClient.dll and SilverlightClient.pdb files from the Lightstreamer Silverlight Client SDK (located under the /DOCS-SDKs/sdk_client_silverlight/lib folder) into this folder of the project.
